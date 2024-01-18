@@ -140,7 +140,11 @@ def process_file(filepath: str, base_filename: str):
         if service_info_url.endswith(".jp2"):
             service_info_url = service_info_url + "/info.json"
     else:
-        inventory_uuid = inventory2uuid[inventory_number]
+        try:
+            inventory_uuid = inventory2uuid[inventory_number]
+        except Exception as e:
+            print(f"Inventory number retrieval error for {base_filename}: {e}")
+            return None, filepath
         inventory_uuid = inventory_uuid.replace("-", "")
 
         inventory_uuid_chunks = [
@@ -208,6 +212,50 @@ def main(pagexml_folder: str, chunksize: int = 1000):
                     f.write(e + "\n")
 
 
+def fix_missing(filepath: str):
+    with open(filepath, "r") as f:
+        document_paths = f.read().splitlines()
+        document_names = [i.split("/")[-1].replace(".xml", "") for i in document_paths]
+
+    for d_path, d_name in zip(document_paths, document_names):
+        inventory_number = d_name.split("_")[2]
+        inventory_number = {"9524I": "9524A", "9524II": "9524B"}.get(
+            inventory_number, inventory_number
+        )
+
+        inventory_uuid = inventory2uuid[inventory_number]
+        inventory_uuid = inventory_uuid.replace("-", "")
+
+        inventory_uuid_chunks = [
+            inventory_uuid[i : i + 2] for i in range(0, len(inventory_uuid), 2)
+        ]
+
+        edepot_id = get_edepot_id(open(d_path).read())
+
+        service_info_url = (
+            f"https://service.archief.nl/iipsrv?IIIF=/{inventory_uuid_chunks}/"
+            + f"{edepot_id}.jp2/info.json"
+        )
+
+        # add metadata
+        print(f"Adding metadata for {d_name}")
+        try:
+            add_metadata(
+                client.read_document_by_external_id(external_uid=d_name).id,
+                {
+                    "inventory_number": d_name.split("_")[2],
+                    "edepot_id": edepot_id,
+                    "scan_url": service_info_url,
+                },
+            )
+        except Exception as e:
+            print(f"Metadata update failed for {d_name}: {e}")
+            continue
+
+
 if __name__ == "__main__":
     FOLDER = "/media/leon/HDE00551/GLOBALISE/HTR/2023_09/pagexml/"
     main(FOLDER)
+
+    # Missing
+    fix_missing("upload_errors.txt")
