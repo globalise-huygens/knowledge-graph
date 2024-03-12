@@ -50,6 +50,7 @@ xmlstarlet ed -N p=$PREFIX -s "//p:Metadata" -t elem -n temp -v "" |
 xmlstarlet ed -N p=$PREFIX -m "//p:Metadata/p:MetadataItem[@type='processingStep' and @name='layout-analysis']" '//p:temp' |
 xmlstarlet ed -N p=$PREFIX -m "//p:Metadata/p:MetadataItem[@type='processingStep' and @name='region-analysis']" '//p:temp' |
 xmlstarlet ed -N p=$PREFIX -m "//p:Metadata/p:MetadataItem[@type='processingStep' and @name='htr']" '//p:temp' |
+xmlstarlet ed -N p=$PREFIX -m "//p:Metadata/p:MetadataItem[@type='processingStep' and @name='word-splitting']" '//p:temp' |
 
 # Now move them back again and remove the temp node
 xmlstarlet ed -N p=$PREFIX -m "//p:temp/p:MetadataItem" '//p:Metadata' |
