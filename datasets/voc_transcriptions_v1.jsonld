@@ -8,11 +8,7 @@
         "nl",
         "en"
     ],
-    "isBasedOn": {
-        "@id": "https://archief.nl/id/dataset/toegang/1.04.02",
-        "type": "Dataset",
-        "name": "Inventaris van het archief van de Verenigde Oost-Indische Compagnie (VOC), 1602-1795 (1811)"
-    },
+    "isBasedOn": "https://archief.nl/id/dataset/toegang/1.04.02",
     "creator": [
         {
             "@id": "https://globalise.huygens.knaw.nl",
