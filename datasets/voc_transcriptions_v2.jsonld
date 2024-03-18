@@ -189,6 +189,13 @@
         "@type": "Organization",
         "name": "International Institute of Social History"
     },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
     "distribution": [
         {
             "@type": "DataDownload",
