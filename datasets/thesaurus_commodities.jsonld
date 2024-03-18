@@ -1,0 +1,156 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/YAWDOV",
+    "name": "GLOBALISE Thesaurus - Commodities",
+    "description": "This dataset offers subject-specific classification/hierarchisation and thesaurus of commodities shipped in the early modern Indian Ocean World. The commodities are sourced from the Dutch East India Company (VOC) archives. Although the dataset can be used as a standalone resource, it is principally meant to be integrated into the GLOBALISE research infrastructure, to serve as reference data for the annotation of named entities, and to be used in future query expansion. The dataset comprises 3787 concepts, of which 2294 are ‘NOT YET CLASSIFIED.’ Every concept in the dataset represents either an umbrella-category or a commodity appearing on shipping lists in the eighteenth century Indian Ocean World. It contains all instances of physical items appearing in the shipping lists of the Bookkeeper-General Batavia (https://bgb.huygens.knaw.nl/) and the Monsoon Traders Database (https://hdl.handle.net/10622/VIUUH7). To (re)use the dataset and to know more about its scope and contents, please consult the Datasheet. The documents in the current version of the dataset (Version 1) are dated October 2023.",
+    "inLanguage": [
+        "nl",
+        "en"
+    ],
+    "isBasedOn": "https://archief.nl/id/dataset/toegang/1.04.02",
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0000-0002-3747-706X",
+            "@type": "Person",
+            "givenName": "Kay",
+            "familyName": "Pepping",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Kay Pepping"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Henrike",
+            "familyName": "Vellinga",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0009-0002-8032-7013",
+            "@type": "Person",
+            "givenName": "Manjusha",
+            "familyName": "Kuruppath",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Manjusha Kuruppath"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8672-025X",
+            "@type": "Person",
+            "givenName": "Leon",
+            "familyName": "van Wissen",
+            "affiliation": {
+                "@id": "https://ror.org/04dkp9463",
+                "@type": "Organization",
+                "name": "University of Amsterdam"
+            },
+            "name": "Leon van Wissen"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9567-5654",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "van Rossum",
+            "affiliation": {
+                "@id": "https://ror.org/05dq4pp56",
+                "@type": "Organization",
+                "name": "International Institute of Social History"
+            },
+            "name": "Matthias van Rossum"
+        }
+    ],
+    "datePublished": "2023-11-28",
+    "dateModified": "2023-11-28",
+    "version": "V1",
+    "keywords": [
+        "Arts and Humanities",
+        "thesaurus",
+        "commodity",
+        "Dutch East India Company"
+    ],
+    "temporalCoverage": [
+        "1700/1800"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/YAWDOV",
+                "@type": "Dataset",
+                "name": "GLOBALISE Thesaurus - Commodities"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "commodities.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 2139820,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14528"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "commodities.trig",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 3803332,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14523"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "datasheet.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 260983,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14527"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "readme.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 277026,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14529"
+        }
+    ]
+}
