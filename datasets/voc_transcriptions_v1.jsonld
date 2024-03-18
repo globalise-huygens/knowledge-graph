@@ -1,0 +1,206 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/JCTCJ2",
+    "name": "VOC transcriptions - GLOBALISE",
+    "description": "This is a collection of machine-generated transcriptions of the ‘Overgekomen brieven en papieren’ of the Dutch East India Company (VOC). They were made by GLOBALISE (https://globalise.huygens.knaw.nl/), a project based at the Huygens Institute (KNAW Humanities Cluster) in the Netherlands and funded by the Dutch Research Council (NWO) under grant no. 175.2019.003. This collection comprises inventory numbers 1053-4454 and 7527-11024 from the VOC archives, National Archives, The Hague. The scans of the original documents (n=4,802,212) from the period 1610-1796 are available on the website of the National Archives: https://www.nationaalarchief.nl/onderzoeken/archief/1.04.02/.",
+    "inLanguage": [
+        "nl",
+        "en"
+    ],
+    "isBasedOn": {
+        "@id": "https://archief.nl/id/dataset/toegang/1.04.02",
+        "type": "Dataset",
+        "name": "Inventaris van het archief van de Verenigde Oost-Indische Compagnie (VOC), 1602-1795 (1811)"
+    },
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0000-0001-6535-2849",
+            "@type": "Person",
+            "givenName": "Rutger",
+            "familyName": "van Koert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Rutger van Koert"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3747-706X",
+            "@type": "Person",
+            "givenName": "Kay",
+            "familyName": "Pepping",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Kay Pepping"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1957-2442",
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klut",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Stefan Klut"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martijn",
+            "familyName": "Maas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Martijn Maas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maartje",
+            "familyName": "Hids",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Maartje Hids"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3681-1289",
+            "@type": "Person",
+            "givenName": "Arno",
+            "familyName": "Bosse",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Arno Bosse"
+        },
+        {
+            "@id": "https://orcid.org/0009-0002-8032-7013",
+            "@type": "Person",
+            "givenName": "Manjusha",
+            "familyName": "Kuruppath",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Manjusha Kuruppath"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8672-025X",
+            "@type": "Person",
+            "givenName": "Leon",
+            "familyName": "van Wissen",
+            "affiliation": {
+                "@id": "https://ror.org/04dkp9463",
+                "@type": "Organization",
+                "name": "University of Amsterdam"
+            },
+            "name": "Leon van Wissen"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7246-4176",
+            "@type": "Person",
+            "givenName": "Lodewijk",
+            "familyName": "Petram",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Lodewijk Petram"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9567-5654",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "van Rossum",
+            "affiliation": {
+                "@id": "https://ror.org/05dq4pp56",
+                "@type": "Organization",
+                "name": "International Institute of Social History"
+            },
+            "name": "Matthias van Rossum"
+        }
+    ],
+    "datePublished": "2023-07-07",
+    "dateModified": "2023-07-07",
+    "version": "V1",
+    "keywords": [
+        "Arts and Humanities",
+        "Social Sciences",
+        "Global History",
+        "Colonial History",
+        "Transcriptions",
+        "Dutch East India Company",
+        "VOC Archives"
+    ],
+    "temporalCoverage": [
+        "1610/1796"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/JCTCJ2",
+                "@type": "Dataset",
+                "name": "VOC transcriptions - GLOBALISE"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "globalise_transcriptions_1.04.02_1053-4454_7527-11024_txt_inventory_v1.0.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 2212961648,
+            "description": "Transcriptions of a total of 4,802,212 page images, comprising inventory numbers 1053-4454 and 7527-11024 from the VOC archives (National Archives, The Hague, archive no. 1.04.02).",
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14248"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 2252,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14249"
+        }
+    ]
+}
