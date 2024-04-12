@@ -1,0 +1,95 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/BHKMWE",
+    "name": "Overzicht van Generale Missiven in het archief van de VOC, 1.04.02",
+    "description": "Deze dataset geeft een overzicht van geïdentificeerde generale missiven binnen 1.04.02, het archief van de Vereenigde Oostindische Compagnie in het Nationaal Archief. De periodisering van de dataset is 1618 tot 1793. De geïdentificeerde generale missiven zijn voorzien van gestructureerde informatie, waaronder de datum van het stuk, de locatie van het stuk in de gedigitaliseerde VOC-archieven van het Nationaal Archief, en een eventuele transcriptie van de tekst in de RGP-uitgave van de Generale Missiven. ",
+    "inLanguage": [
+        "nl"
+    ],
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0000-0002-3747-706X",
+            "@type": "Person",
+            "givenName": "Kay",
+            "familyName": "Pepping",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Kay Pepping"
+        }
+    ],
+    "datePublished": "2023-04-05",
+    "dateModified": "2023-04-05",
+    "version": "V3",
+    "temporalCoverage": [
+        "1618/1793"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/BHKMWE",
+                "@type": "Dataset",
+                "name": "Overzicht van Generale Missiven in het archief van de VOC, 1.04.02"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Datasheet v.3.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 243237,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Overzicht van Generale Missiven in 1.04.02 v.3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 447724,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ReadMe.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 9163,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/10783"
+        }
+    ]
+}
