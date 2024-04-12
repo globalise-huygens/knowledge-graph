@@ -1,0 +1,123 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/75DURG",
+    "name": "GLOBALISE Geographical Indices of the RGP General Missives",
+    "description": "This dataset presents the geographical indices of the 14 volumes of the RGP editions of the Generale Missiven der V.O.C. (GM) (1960-2007) in a structured format. The RGP General Missiven are a published selection of the General Letters from the period 1610 to 1767. These were summarising reports written by the Governor General in Batavia to the directors of the Dutch East India Company in Amsterdam. The volumes can be accessed at: https://resources.huygens.knaw.nl/vocgeneralemissiven These published volumes include geographic indices covering toponyms (place names), ethnonyms (e.g. 'Afghanen') and titles related to place (e.g. 'China, keizer van'). The majority of the toponyms in the indices relate to places within the VOC's Asian area of operations, which ranged from Yemen to Japan.",
+    "inLanguage": [
+        "nl",
+        "en"
+    ],
+    "isBasedOn": "https://resources.huygens.knaw.nl/vocgeneralemissiven",
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0000-0002-4161-1030",
+            "@type": "Person",
+            "givenName": "Brecht",
+            "familyName": "Nijman",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Brecht Nijman"
+        }
+    ],
+    "datePublished": "2024-04-11",
+    "dateModified": "2024-04-11",
+    "version": "V1",
+    "keywords": [
+        "Colonial History",
+        "Global History",
+        "Dutch East India Company"
+    ],
+    "temporalCoverage": [
+        "1610/1767"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/75DURG",
+                "@type": "Dataset",
+                "name": "GLOBALISE Geographical Indices of the RGP General Missives"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "datasheet.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 110122,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33316"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "diff_edits.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 278473,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33302"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "geographic_indices.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1221960,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33310"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "main.py",
+            "encodingFormat": "text/x-python-script",
+            "contentSize": 9251,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33313"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plain_output_20231012.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1228095,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33311"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 6968,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33305"
+        }
+    ]
+}
