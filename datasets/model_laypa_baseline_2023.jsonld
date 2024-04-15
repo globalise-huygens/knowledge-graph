@@ -1,0 +1,136 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/VMSCBR",
+    "name": "GLOBALISE Laypa Baseline Model - August 2023",
+    "description": "This is a Laypa baseline detection model that was created to detect baselines on the scans of the GLOBALISE VOC corpus. It was finetuned using Ground Truth that is also available in this Dataverse (GLOBALISE Ground Truth for Handwritten Text and Layout Recognition) and applied using the Loghi Handwritten Text Recognition tools to generate VOC transcriptions v2 - GLOBALISE. The model's hyperparameters are available in the file config.yaml.",
+    "inLanguage": [
+        "nl",
+        "en"
+    ],
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0000-0002-1957-2442",
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klut",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Stefan Klut"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6535-2849",
+            "@type": "Person",
+            "givenName": "Rutger",
+            "familyName": "van Koert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Rutger van Koert"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martijn",
+            "familyName": "Maas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Martijn Maas"
+        }
+    ],
+    "datePublished": "2024-04-15",
+    "dateModified": "2024-04-15",
+    "version": "V1",
+    "keywords": [
+        "Arts and Humanities",
+        "Computer and Information Science",
+        "Handwriting Recognition",
+        "Artificial Intelligence Model"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/VMSCBR",
+                "@type": "Dataset",
+                "name": "GLOBALISE Laypa Baseline Model - August 2023"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "citation": [
+        {
+            "@type": "Dataset",
+            "name": "GLOBALISE Ground Truth for Handwritten Text and Layout Recognition",
+            "@id": "https://hdl.handle.net/10622/QJZKZ2"
+        },
+        {
+            "@type": "Dataset",
+            "name": "VOC transcriptions v2 - GLOBALISE",
+            "@id": "https://hdl.handle.net/10622/LVXSBW"
+        },
+        {
+            "@type": "Article",
+            "name": "Stefan Klut, Rutger van Koert, and Ronald Sluijter. 2023. Laypa: A Novel Framework for Applying Segmentation Networks to Historical Documents. In 7th International Workshop on Historical Document Imaging and Processing (HIP ’23), August 25–26, 2023, San Jose, CA, USA. ACM, New York, NY, USA, 6 pages.",
+            "@id": "https://doi.org/10.1145/3604951.3605520"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "config.yaml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 9855,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14472"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "metadata.json",
+            "encodingFormat": "application/json",
+            "contentSize": 14894,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14473"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "model_best_mIoU.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 455414785,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14471"
+        }
+    ]
+}

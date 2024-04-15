@@ -1,0 +1,171 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/X2JZYY",
+    "name": "GLOBALISE Loghi Handwritten Text Recognition Model - August 2023",
+    "description": "This is a Loghi Handwritten Text Recognition (HTR) model that was created to transcribe text on the scans of the GLOBALISE VOC corpus. It was finetuned using Ground Truth that is also available in this Dataverse (GLOBALISE Ground Truth for Handwritten Text and Layout Recognition) and applied using the Loghi HTR tools to generate VOC transcriptions v2 - GLOBALISE. The model's hyperparameters are available in the file metadata.json.",
+    "inLanguage": [
+        "nl",
+        "en"
+    ],
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0000-0002-1957-2442",
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klut",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Stefan Klut"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6535-2849",
+            "@type": "Person",
+            "givenName": "Rutger",
+            "familyName": "van Koert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Rutger van Koert"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martijn",
+            "familyName": "Maas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "KNAW Humanities Cluster Digital Infrastructure"
+            },
+            "name": "Martijn Maas"
+        }
+    ],
+    "datePublished": "2024-04-11",
+    "dateModified": "2024-04-11",
+    "version": "V1",
+    "keywords": [
+        "Arts and Humanities",
+        "Computer and Information Science",
+        "Handwriting Recognition",
+        "Artificial Intelligence Model"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/X2JZYY",
+                "@type": "Dataset",
+                "name": "GLOBALISE Loghi Handwritten Text Recognition Model - August 2023"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "citation": [
+        {
+            "@type": "Dataset",
+            "name": "GLOBALISE Ground Truth for Handwritten Text and Layout Recognition",
+            "@id": "https://hdl.handle.net/10622/QJZKZ2"
+        },
+        {
+            "@type": "Dataset",
+            "name": "VOC transcriptions v2 - GLOBALISE",
+            "@id": "https://hdl.handle.net/10622/LVXSBW"
+        },
+        {
+            "@type": "Article",
+            "name": "Stefan Klut, Rutger van Koert, and Ronald Sluijter. 2023. Laypa: A Novel Framework for Applying Segmentation Networks to Historical Documents. In 7th International Workshop on Historical Document Imaging and Processing (HIP ’23), August 25–26, 2023, San Jose, CA, USA. ACM, New York, NY, USA, 6 pages.",
+            "@id": "https://doi.org/10.1145/3604951.3605520"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "charlist.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 931,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14480"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "config.json",
+            "encodingFormat": "application/json",
+            "contentSize": 50507,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14476"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fingerprint.pb",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 55,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14482"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "keras_metadata.pb",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 410169,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14481"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "metadata.json",
+            "encodingFormat": "application/json",
+            "contentSize": 54621,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14478"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "saved_model.pb",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 16196662,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14475"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "variables.data-00000-of-00001",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 401725803,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14477"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "variables.index",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 43357,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/14479"
+        }
+    ]
+}
