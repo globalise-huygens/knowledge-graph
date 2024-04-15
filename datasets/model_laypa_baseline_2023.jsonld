@@ -95,19 +95,12 @@
     ],
     "citation": [
         {
-            "@type": "Dataset",
             "name": "GLOBALISE Ground Truth for Handwritten Text and Layout Recognition",
             "@id": "https://hdl.handle.net/10622/QJZKZ2"
         },
         {
-            "@type": "Dataset",
             "name": "VOC transcriptions v2 - GLOBALISE",
             "@id": "https://hdl.handle.net/10622/LVXSBW"
-        },
-        {
-            "@type": "Article",
-            "name": "Stefan Klut, Rutger van Koert, and Ronald Sluijter. 2023. Laypa: A Novel Framework for Applying Segmentation Networks to Historical Documents. In 7th International Workshop on Historical Document Imaging and Processing (HIP ’23), August 25–26, 2023, San Jose, CA, USA. ACM, New York, NY, USA, 6 pages.",
-            "@id": "https://doi.org/10.1145/3604951.3605520"
         }
     ],
     "distribution": [
