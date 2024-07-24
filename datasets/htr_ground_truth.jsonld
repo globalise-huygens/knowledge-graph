@@ -1,0 +1,189 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/QJZKZ2",
+    "name": "GLOBALISE Ground Truth for Handwritten Text and Layout Recognition",
+    "description": "This dataset contains Ground Truth PageXML files that were used to finetune the GLOBALISE Handwritten Text Recognition, baseline detection and region detection models (see Related Publications). This collection includes a datasheet with comprehensive details about the motivation for creating this dataset, the files it comprises, and their potential uses. Additionally, it contains guidelines for creating text region Ground Truth. The transcription Ground Truth files were created in accordance with the guidelines of the Dutch National Archives.",
+    "inLanguage": [
+        "nl",
+        "en"
+    ],
+    "isBasedOn": "https://archief.nl/id/dataset/toegang/1.04.02",
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0000-0002-3747-706X",
+            "@type": "Person",
+            "givenName": "Kay",
+            "familyName": "Pepping",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Kay Pepping"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maartje",
+            "familyName": "Hids",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Maartje Hids"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0829-7991",
+            "@type": "Person",
+            "givenName": "Merve",
+            "familyName": "Tosun",
+            "affiliation": {
+                "@id": "https://ror.org/05dq4pp56",
+                "@type": "Organization",
+                "name": "International Institute of Social History"
+            },
+            "name": "Merve Tosun"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8931-0237",
+            "@type": "Person",
+            "givenName": "Femke",
+            "familyName": "Brink",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Femke Brink"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marja",
+            "familyName": "Sw\u00fcste",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Marja Sw\u00fcste"
+        }
+    ],
+    "datePublished": "2024-05-02",
+    "dateModified": "2024-05-02",
+    "version": "V1",
+    "keywords": [
+        "handwriting recognition",
+        "ground truth"
+    ],
+    "temporalCoverage": [
+        "1610/1796"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/QJZKZ2",
+                "@type": "Dataset",
+                "name": "GLOBALISE Ground Truth for Handwritten Text and Layout Recognition"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Datasheet.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 175903,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33328"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Guidelines_Text_Region_GT.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 917397,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33327"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Training_Baselines_1-1500_B6_V1_03-07-23.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 133327,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/26243"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Training_General_Missives_B1_0_5_(17-03-2023).zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 450508,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/26239"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Training_Limited2_B2_v_1_1_(17-3-2023).zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 523559,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/26241"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Training_Regions_1001_B5_V1_26-6-23.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 821561,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/26247"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Training_Regions_Standard_Layout_B4_V3.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 511728,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33326"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Validation_All_Random_B2_v1_1_(17-3-2023).zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 421392,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/26246"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Validation_General_Missives_B1_V_0_5_(17-03-2023).zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 98310,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/26244"
+        }
+    ]
+}

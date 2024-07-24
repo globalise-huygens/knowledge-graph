@@ -1,0 +1,151 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://hdl.handle.net/10622/MDNVH5",
+    "name": "GLOBALISE - Weights and Measures in the 18th-Century Indian Ocean World",
+    "description": "This dataset provides information on weights and measures used by the Dutch East India Company (VOC). The dataset is meant to be integrated into the GLOBALISE infrastructure, to serve as reference data and to facilitate query expansion in full-text searches of the archives of the VOC.This dataset contextualizes units of weight and measure which were drawn from the eighteenth-century 'Memoriën van Munten, Maaten, en Gewigten als dezelve op Batavia en op de respective Comptoiren van Indië in gebruik zijn'. To (re)use the dataset and to know more about its scope and contents, please consult the documentation and the data-envelope.The dataset consists of three different files: File 1: Glossary of weights and measures File 2: Labels for weights and measures File 3: Conversions for weights and measures. There are two file types for the conversions (xlsx and tab). The xlsx file gives a clear overview of the conversions, the tab file is principally meant for re-use.The documents in the current version of the dataset (Version 1) are dated May 2024.",
+    "inLanguage": [
+        "nl",
+        "en"
+    ],
+    "isBasedOn": "https://archief.nl/id/dataset/toegang/1.04.02",
+    "creator": [
+        {
+            "@id": "https://globalise.huygens.knaw.nl",
+            "@type": "Organization",
+            "name": "GLOBALISE project"
+        }
+    ],
+    "contributor": [
+        {
+            "@id": "https://orcid.org/0009-0002-7232-0065",
+            "@type": "Person",
+            "givenName": "Henrike",
+            "familyName": "Vellinga",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4161-1030",
+            "@type": "Person",
+            "givenName": "Brecht",
+            "familyName": "Nijman",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Brecht Nijman"
+        },
+        {
+            "@id": "https://orcid.org/0009-0002-8032-7013",
+            "@type": "Person",
+            "givenName": "Manjusha",
+            "familyName": "Kuruppath",
+            "affiliation": {
+                "@id": "https://ror.org/04x6kq749",
+                "@type": "Organization",
+                "name": "Huygens Institute"
+            },
+            "name": "Manjusha Kuruppath"
+        }
+    ],
+    "datePublished": "2024-05-23",
+    "dateModified": "2024-05-23",
+    "version": "V1",
+    "keywords": [
+        "colonial history",
+        "Weights and Measures",
+        "Global history",
+        "Dutch East India Company"
+    ],
+    "temporalCoverage": [
+        "1764/1771"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@id": "https://datasets.iisg.amsterdam/dataverse/globalise",
+        "@type": "DataCatalog",
+        "name": "GLOBALISE Dataverse - IISH Data Collection",
+        "publisher": {
+            "@id": "https://ror.org/05dq4pp56",
+            "@type": "Organization",
+            "name": "International Institute of Social History"
+        },
+        "dataset": [
+            {
+                "@id": "https://hdl.handle.net/10622/MDNVH5",
+                "@type": "Dataset",
+                "name": "GLOBALISE - Weights and Measures in the 18th-Century Indian Ocean World"
+            }
+        ]
+    },
+    "publisher": {
+        "@id": "https://globalise.huygens.knaw.nl",
+        "@type": "Organization",
+        "name": "GLOBALISE project"
+    },
+    "provider": {
+        "@id": "https://ror.org/05dq4pp56",
+        "@type": "Organization",
+        "name": "International Institute of Social History"
+    },
+    "funder": [
+        {
+            "@id": "https://ror.org/04jsz6e67",
+            "@type": "Organization",
+            "name": "Dutch Research Council (NWO)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Conversions for weight and measures.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 221125,
+            "description": "This tab file consists of conversions for weights and measures used by the VOC.",
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33378"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Conversions for weights and measures.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 100111,
+            "description": "This file consists of conversions for weights and measures used by the VOC.",
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33365"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Data Envelope Dataset Weights and Measures.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 169206,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33369"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Documentation Dataset Weights and Measures.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 203409,
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33368"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Glossary of weights and measures.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 49118,
+            "description": "The glossary lists units of weights and measures used by the VOC, and gives definitions.",
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33366"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Labels for weights and measures.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 47354,
+            "description": "This file lists the different terms for the units in the glossary.",
+            "contentUrl": "https://datasets.iisg.amsterdam/api/access/datafile/33364"
+        }
+    ]
+}
